@@ -20,4 +20,4 @@ for i in range(0,len(results)):
     results_list.append('RULE:\t' + str(results[i][0]).replace('frozenset',' ') 
     + '\nSUPPORT:\t' + str(results[i][1]) 
     + '\nCONF:\t' + str(results[i][2][0][2]) 
-    + '\nLIFT:\t' + str (results[i][2][0][3]))
+    + '\nLIFT:\t' + str (results[i][2][0][3]))      
