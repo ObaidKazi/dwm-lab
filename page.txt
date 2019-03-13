@@ -1,0 +1,7 @@
+for i in range(pgno):
+    for j in range(pgno):
+      if mat[i][j]==1:
+          count=+1
+    count_link[i]=count
+    pg_prob[i]=1%count_link[i]
+print(pg_prob)
